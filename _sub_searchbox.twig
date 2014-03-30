@@ -1,0 +1,6 @@
+<form class="navbar-form navbar-right" role="search" method="get" action="{{ paths.root }}search" id="searchform" enctype="text/plain">
+	<div class="form-group">
+    		<input type="search"  class="form-control" value="{% if search is defined %}{{ search|escape }}{% endif %}" placeholder="{{ __("Search…") }}" name="search">
+	</div>
+</form>
+
