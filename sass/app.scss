@@ -1,0 +1,13 @@
+@import "bootstrap";
+
+// Layout
+
+.main-content{
+	@include make-row();
+	.blog-column{
+		@include make-sm-column(9);
+	}
+	.sidebar{
+		@include make-sm-column(3);
+	}
+}
