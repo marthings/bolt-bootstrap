@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="{{ paths.theme }}stylesheets/bootstrap.css">
     <link rel="stylesheet" href="{{ paths.theme }}stylesheets/app.css">
 
-    <script src="{{ paths.theme }}javascripts/jquery-1.10.2.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="{{ paths.theme }}javascripts/bootstrap.min.js"></script>
 
     {# Bolt comes with Fancybox, as it's used in the backend. We can use it here, or
@@ -42,7 +42,7 @@
                 </button>
                 <a class="navbar-brand" href="{{ paths.root }}">{{ app.config.get('general/sitename') }}</a>
             </div>
-            <div class="collapse navbar-collapse" id="#bs-example-navbar-collapse-1">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="navbar-nav nav">
                     {# Include the menu, as defined in config/menu.yml. Note that this theme comes with it's
                         own _sub_menu.twig. If this file wasn't included in the current theme, the default menu
